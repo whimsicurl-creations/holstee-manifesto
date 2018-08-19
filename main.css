@@ -1,0 +1,90 @@
+/*Variant 1: grey (#f2f2f2) BG, teal (#00b3b3) text, DarkBlue span*/
+/*Variant 2: teal BG, DarkBlue text, grey span*/
+/*Variant 3: DarkBlue BG, grey text, teal span*/
+
+.outer-box {
+    width: 550px;
+}
+
+div {
+  margin: 2px;
+  padding: 3px;
+}
+
+p.var1 {
+  color: #00b3b3;
+  text-align: center;
+  font-family: 'Kaushan Script';
+  font-size: 22px;  
+}
+
+p.var2 {
+  color: DarkBlue;
+  text-align: center;
+  font-family: 'Kaushan Script';
+  font-size: 22px;  
+}
+
+p.var3 {
+  color: #f2f2f2;
+  text-align: center;
+  font-family: 'Kaushan Script';
+  font-size: 22px;  
+}
+
+span.bold-var1 {
+  color: DarkBlue;
+  font-family: 'Patua One';
+  text-decoration: underline;
+}
+
+span.bold-var2 {
+  color: #f2f2f2;
+  font-family: 'Patua One';
+  text-decoration: underline;
+}
+
+span.bold-var3 {
+  color: #00b3b3;
+  font-family: 'Patua One';
+  text-decoration: underline;
+}
+
+.full-width {
+  width: 530px;
+  float: left;
+}
+
+.half-width {
+  width: 261px;
+  float: left;
+}
+
+.third-width {
+  width: 170px;
+  float: left;
+}
+
+.var1-block {
+  background: #f2f2f2;
+}
+
+.var2-block {
+  background: #00b3b3;
+}
+
+.var3-block {
+  background: DarkBlue;
+}
+
+.headline {
+  background: DarkBlue;
+  color: #f2f2f2;
+  float: left;
+  font-family: 'Bevan';
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  width: 530px;
+}
+
